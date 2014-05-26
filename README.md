@@ -1,2 +1,20 @@
 mx-server
 =========
+
+To compile, run "javac -d foldername src/*/*".
+To execute, run "java -cp lib/*:foldername core.Main".
+
+"foldername" represents the folder you want the class files to be in.
+
+Shell script for compiling and executing in Linux:
+
+===================================
+
+#!/bin/bash
+
+CLASS_DIR='bin'
+mkdir -p $CLASS_DIR
+javac -d $CLASS_DIR src/*/*
+java -cp lib/*:$CLASS_DIR core.Main
+
+===================================
