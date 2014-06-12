@@ -1,7 +1,7 @@
 mx-server
 =========
 
-To compile, run `javac -d foldername src/*/*`
+To compile, run `javac -d foldername src/*/*`  
 To execute, run `java -cp lib/*:foldername core.Main`
 
 "foldername" represents the folder you want the class files to be in.
